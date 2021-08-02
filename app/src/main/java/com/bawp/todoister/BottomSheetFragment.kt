@@ -38,7 +38,7 @@ class BottomSheetFragment : BottomSheetDialogFragment(), View.OnClickListener {
     var calendar: Calendar= Calendar.getInstance()
     private lateinit var sharedViewModel: SharedViewModel
     private var isEdit: Boolean = false
-    private lateinit var priority: Priority
+    private var priority: Priority= Priority.LOW
 
 
     override fun onCreateView(
